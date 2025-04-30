@@ -35,8 +35,8 @@ stages:
       inputs:
         connectionType: 'Azure Resource Manager'
         azureSubscriptionEndpoint: 'AKS_SPN'
-        azureResourceGroup: 'rg-aks-free-tier'
-        kubernetesCluster: 'aks-free-cluster'
+        azureResourceGroup: 'AKS_RG1'
+        kubernetesCluster: 'my-aks'
         namespace: default
         command: apply
         useConfigurationFile: true
