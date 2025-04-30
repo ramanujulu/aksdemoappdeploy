@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: aks-demo-app
-        image: jubbuseacrinmh.azurecr.io/aks-demo-app:__BUILD_ID__
+        image: ramzregistry-ergbgqa6c7c8f3gb.azurecr.io/aks-demo-app:__BUILD_ID__
         ports:
         - containerPort: 3000
 ---
