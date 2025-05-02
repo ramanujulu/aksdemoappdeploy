@@ -34,9 +34,9 @@ stages:
     - task: Kubernetes@1
       inputs:
         connectionType: 'Azure Resource Manager'
-        azureSubscriptionEndpoint: 'AKS_SPN'
-        azureResourceGroup: 'AKS_RG1'
-        kubernetesCluster: 'my-aks'
+        azureSubscriptionEndpoint: 'DockerServiceConnection'
+        azureResourceGroup: 'RG1'
+        kubernetesCluster: 'myakscluster1'
         namespace: default
         command: apply
         useConfigurationFile: true
