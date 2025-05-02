@@ -34,7 +34,7 @@ stages:
     - task: Kubernetes@1
       inputs:
         connectionType: 'Azure Resource Manager'
-        azureSubscriptionEndpoint: 'DockerServiceConnection'
+        azureSubscriptionEndpoint: 'ARMConnection'
         azureResourceGroup: 'RG1'
         kubernetesCluster: 'myakscluster1'
         namespace: default
